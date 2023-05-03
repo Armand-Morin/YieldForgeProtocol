@@ -1,3 +1,4 @@
+/*
 import React, { useState } from "react";
 import { SimpleStorage } from "./abi.js";
 import Web3 from "web3";
@@ -60,3 +61,4 @@ function App() {
 }
 
 export default App;
+*/
