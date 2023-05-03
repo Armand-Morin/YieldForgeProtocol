@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { SimpleStorage } from "abi.js";
+import { SimpleStorage } from "./abi.js";
 import Web3 from "web3";
-import 'App.css';
+import './App.css';
 
 // Access our wallet inside of our dapp
 const web3 = new Web3(Web3.givenProvider);
