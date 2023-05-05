@@ -1,9 +1,8 @@
 
-//import styles from "../styles/App.css";
 import React, { useState } from "react";
 import { SimpleStorage } from "../abi/abi";
 import Web3 from "web3";
-import "../styles/App.module.css";
+import styles from "../styles/App.module.css";
 
 // Access our wallet inside of our dapp
 const web3 = new Web3(Web3.givenProvider);
@@ -35,9 +34,9 @@ function App() {
   };
   
   return (
-     <div className="main">
-       <div className="card">
-         <form className="form" onSubmit={numberSet}>
+     <div className={styles.main}>
+       <div className={styles.card}>
+         <form className={styles.form} onSubmit={numberSet}>
            <label>
              Set your uint256:
              <input
@@ -47,12 +46,12 @@ function App() {
                onChange={(t) => setUint(t.target.value)}
              />
            </label>
-           <button className="button" type="submit" value="Confirm">
+           <button className={styles.button} type="submit" value="Confirm">
              Confirm
            </button>
          </form>
          <br />
-         <button className="button" onClick={numberGet} type="button">
+         <button className={styles.button} onClick={numberGet} type="button">
            Get your uint256
          </button>
          {getNumber}

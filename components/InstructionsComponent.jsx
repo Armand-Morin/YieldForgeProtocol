@@ -2,10 +2,6 @@ import styles from "../styles/InstructionsComponent.module.css";
 import Router, { useRouter } from "next/router";
 
 
-
-
-
-
 export default function InstructionsComponent() {
 
 	const router = useRouter();
@@ -39,15 +35,9 @@ export default function InstructionsComponent() {
 					</div>
 				</a>
 				<a
-					target={"_blank"}
 					href={"/quant_strategies"}
 				>
 					<div className={styles.button}>
-						<img
-							src="https://static.alchemyapi.io/images/cw3d/Icon%20Large/file-eye-01-l.svg"
-							width={"20px"}
-							height={"20px"}
-						/>
 						<p>Quantitative Strategies</p>
 					</div>
 				</a>
