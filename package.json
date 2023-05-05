@@ -1,7 +1,7 @@
 {
 	"name": "YieldForge",
 	"version": "0.1.0",
-	"homepage": "http://Armand-Morin.github.io/YieldForge",
+	"homepage": "http://Armand-Morin.github.io/YieldForgeProtocol",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
