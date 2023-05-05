@@ -1,2 +1,0 @@
-# YieldForgeProtocol
-Yield Forge Protocol
