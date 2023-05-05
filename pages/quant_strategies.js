@@ -1,5 +1,4 @@
 
-import React from 'react';
 //import styles from "../styles/App.css";
 import React, { useState } from "react";
 import { SimpleStorage } from "./abi/abi";
